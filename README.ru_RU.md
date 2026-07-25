@@ -1,5 +1,10 @@
 [English](README.md) | [Русский](README.ru_RU.md)
 
+ПРОЕКТ ПЕРЕМЕЩЕН НА https://github.com/Blaze757/routeflux
+
+ЭТА СТРАНИЦА - АРХИВ
+
+
 # RouteFlux
 
 RouteFlux — это нативный для OpenWrt менеджер Xray-подписок для роутеров и перефирийных устройств.
