@@ -1,5 +1,12 @@
 [English](README.md) | [Русский](README.ru_RU.md)
 
+
+PROJECT MOVED TO https://github.com/Blaze757/routeflux
+
+THIS REPO IS ARCHIVED
+
+
+
 # RouteFlux
 
 RouteFlux is an OpenWrt-native Xray subscription manager for routers and edge devices.
