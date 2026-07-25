@@ -3,7 +3,7 @@ set -eu
 
 ROUTEFLUX_BINARY="${ROUTEFLUX_BINARY:-/usr/bin/routeflux}"
 ROUTEFLUX_WGET="${ROUTEFLUX_WGET:-wget}"
-ROUTEFLUX_RELEASES_API="${ROUTEFLUX_RELEASES_API:-https://api.github.com/repos/Blaze757/routeflux/releases/latest}"
+ROUTEFLUX_RELEASES_API="${ROUTEFLUX_RELEASES_API:-https://api.github.com/repos/Alaxay8/routeflux/releases/latest}"
 
 trim() {
 	printf '%s' "${1:-}" | sed 's/^[[:space:]]*//; s/[[:space:]]*$//'

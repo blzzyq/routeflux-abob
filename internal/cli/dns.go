@@ -7,7 +7,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/Blaze757/routeflux/internal/domain"
+	"github.com/Alaxay8/routeflux/internal/domain"
 )
 
 func newDNSCmd(opts *rootOptions) *cobra.Command {

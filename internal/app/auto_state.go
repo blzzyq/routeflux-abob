@@ -3,7 +3,7 @@ package app
 import (
 	"time"
 
-	"github.com/Blaze757/routeflux/internal/domain"
+	"github.com/Alaxay8/routeflux/internal/domain"
 )
 
 const autoHealthStatePersistInterval = 5 * time.Minute

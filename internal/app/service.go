@@ -27,12 +27,12 @@ import (
 	"time"
 	"unicode"
 
-	"github.com/Blaze757/routeflux/internal/backend"
-	"github.com/Blaze757/routeflux/internal/domain"
-	"github.com/Blaze757/routeflux/internal/parser"
-	"github.com/Blaze757/routeflux/internal/platform/openwrt"
-	"github.com/Blaze757/routeflux/internal/probe"
-	"github.com/Blaze757/routeflux/internal/speedtest"
+	"github.com/Alaxay8/routeflux/internal/backend"
+	"github.com/Alaxay8/routeflux/internal/domain"
+	"github.com/Alaxay8/routeflux/internal/parser"
+	"github.com/Alaxay8/routeflux/internal/platform/openwrt"
+	"github.com/Alaxay8/routeflux/internal/probe"
+	"github.com/Alaxay8/routeflux/internal/speedtest"
 )
 
 const inspectSpeedTimeout = 75 * time.Second

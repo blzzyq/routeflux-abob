@@ -5,8 +5,8 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/Blaze757/routeflux/internal/domain"
-	"github.com/Blaze757/routeflux/internal/probe"
+	"github.com/Alaxay8/routeflux/internal/domain"
+	"github.com/Alaxay8/routeflux/internal/probe"
 )
 
 func TestStartZapretTestActivatesManagedZapretAndStoresRestoreState(t *testing.T) {

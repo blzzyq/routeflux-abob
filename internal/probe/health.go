@@ -3,7 +3,7 @@ package probe
 import (
 	"time"
 
-	"github.com/Blaze757/routeflux/internal/domain"
+	"github.com/Alaxay8/routeflux/internal/domain"
 )
 
 // UpdateHealth folds a probe result into the rolling health state.

@@ -6,7 +6,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/Blaze757/routeflux/internal/backend"
+	"github.com/Alaxay8/routeflux/internal/backend"
 )
 
 // InitdController manages Xray through the OpenWrt init.d script.

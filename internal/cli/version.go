@@ -3,7 +3,7 @@ package cli
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/Blaze757/routeflux/internal/buildinfo"
+	"github.com/Alaxay8/routeflux/internal/buildinfo"
 )
 
 func newVersionCmd(opts *rootOptions) *cobra.Command {

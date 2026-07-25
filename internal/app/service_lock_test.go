@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Blaze757/routeflux/internal/domain"
-	"github.com/Blaze757/routeflux/internal/probe"
+	"github.com/Alaxay8/routeflux/internal/domain"
+	"github.com/Alaxay8/routeflux/internal/probe"
 )
 
 var errStoreWriteLockRequired = errors.New("store write lock required")

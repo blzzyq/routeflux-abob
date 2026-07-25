@@ -6,9 +6,9 @@ PACKAGE_ARCH ?= mipsel_24kc
 COMMIT ?= $(shell git rev-parse --short HEAD 2>/dev/null || printf 'unknown')
 BUILD_DATE ?= $(shell date -u '+%Y-%m-%dT%H:%M:%SZ')
 LDFLAGS := -s -w \
-	-X github.com/Blaze757/routeflux/internal/buildinfo.Version=$(VERSION) \
-	-X github.com/Blaze757/routeflux/internal/buildinfo.Commit=$(COMMIT) \
-	-X github.com/Blaze757/routeflux/internal/buildinfo.BuildDate=$(BUILD_DATE)
+	-X github.com/Alaxay8/routeflux/internal/buildinfo.Version=$(VERSION) \
+	-X github.com/Alaxay8/routeflux/internal/buildinfo.Commit=$(COMMIT) \
+	-X github.com/Alaxay8/routeflux/internal/buildinfo.BuildDate=$(BUILD_DATE)
 
 .PHONY: build test test-verbose coverage coverage-runtime lint test-integration build-openwrt build-openwrt-x86_64 build-openwrt-aarch64_cortex-a53 package-openwrt package-release fmt
 

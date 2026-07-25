@@ -5,7 +5,7 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/Blaze757/routeflux/internal/domain"
+	"github.com/Alaxay8/routeflux/internal/domain"
 )
 
 // ParseVLESS parses a VLESS link into a normalized node.

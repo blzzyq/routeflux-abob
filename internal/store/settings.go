@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Blaze757/routeflux/internal/domain"
+	"github.com/Alaxay8/routeflux/internal/domain"
 )
 
 // SaveSettings persists user settings.

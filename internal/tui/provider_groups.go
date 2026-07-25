@@ -5,7 +5,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/Blaze757/routeflux/internal/domain"
+	"github.com/Alaxay8/routeflux/internal/domain"
 )
 
 type providerGroup struct {

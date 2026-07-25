@@ -8,7 +8,7 @@ import (
 
 	"github.com/charmbracelet/lipgloss"
 
-	"github.com/Blaze757/routeflux/internal/domain"
+	"github.com/Alaxay8/routeflux/internal/domain"
 )
 
 func TestBuildProviderGroupsGroupsSubscriptionsByProvider(t *testing.T) {

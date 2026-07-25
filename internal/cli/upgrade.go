@@ -12,7 +12,7 @@ import (
 	"github.com/spf13/cobra"
 )
 
-const routefluxLatestInstallScriptURL = "https://github.com/Blaze757/routeflux/releases/latest/download/install.sh"
+const routefluxLatestInstallScriptURL = "https://github.com/Alaxay8/routeflux/releases/latest/download/install.sh"
 
 var routefluxUpgradeInstallerPath = "/tmp/routeflux-install.sh"
 

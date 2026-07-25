@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Blaze757/routeflux/internal/buildinfo"
+	"github.com/Alaxay8/routeflux/internal/buildinfo"
 )
 
 func TestVersionCommandOutputsBuildInfo(t *testing.T) {

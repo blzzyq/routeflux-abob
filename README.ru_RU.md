@@ -35,7 +35,7 @@ RouteFlux создан для тех, кому нужен практичный �
 Установите последний стабильный релиз на ваш роутер:
 
 ```bash
-wget -O /tmp/routeflux-install.sh "https://github.com/Blaze757/routeflux/releases/latest/download/install.sh" && sh /tmp/routeflux-install.sh
+wget -O /tmp/routeflux-install.sh "https://github.com/Alaxay8/routeflux/releases/latest/download/install.sh" && sh /tmp/routeflux-install.sh
 ```
 
 Затем импортируйте подписку и подключитесь:
@@ -89,21 +89,21 @@ RouteFlux включает интерфейс LuCI для повседневно
 Используйте последний стабильный установщик:
 
 ```bash
-wget -O /tmp/routeflux-install.sh "https://github.com/Blaze757/routeflux/releases/latest/download/install.sh" && sh /tmp/routeflux-install.sh
+wget -O /tmp/routeflux-install.sh "https://github.com/Alaxay8/routeflux/releases/latest/download/install.sh" && sh /tmp/routeflux-install.sh
 ```
 
 Чтобы обновить уже установленный RouteFlux поверх текущей версии без потери подписок, пользовательских service alias и preset-ов из `/etc/routeflux`:
 
 ```bash
 ROUTEFLUX_TAG=v0.1.5
-wget -O /tmp/routeflux-install.sh "https://github.com/Blaze757/routeflux/releases/download/${ROUTEFLUX_TAG}/install.sh" && sh /tmp/routeflux-install.sh
+wget -O /tmp/routeflux-install.sh "https://github.com/Alaxay8/routeflux/releases/download/${ROUTEFLUX_TAG}/install.sh" && sh /tmp/routeflux-install.sh
 ```
 
 Если нужен зафиксированный релиз:
 
 ```bash
 ROUTEFLUX_TAG=v0.1.5
-wget -O /tmp/routeflux-install.sh "https://github.com/Blaze757/routeflux/releases/download/${ROUTEFLUX_TAG}/install.sh" && sh /tmp/routeflux-install.sh
+wget -O /tmp/routeflux-install.sh "https://github.com/Alaxay8/routeflux/releases/download/${ROUTEFLUX_TAG}/install.sh" && sh /tmp/routeflux-install.sh
 ```
 
 Установщик автоматически ставит встроенный runtime Xray, если роутер ещё не предоставляет рабочий бинарный файл Xray и сервис.
@@ -118,7 +118,7 @@ wget -O /tmp/routeflux-install.sh "https://github.com/Blaze757/routeflux/release
 Чтобы удалить RouteFlux и встроенный runtime Xray:
 
 ```bash
-wget -O /tmp/routeflux-uninstall.sh "https://github.com/Blaze757/routeflux/releases/latest/download/uninstall.sh" && sh /tmp/routeflux-uninstall.sh
+wget -O /tmp/routeflux-uninstall.sh "https://github.com/Alaxay8/routeflux/releases/latest/download/uninstall.sh" && sh /tmp/routeflux-uninstall.sh
 ```
 
 ### Сборка из исходников

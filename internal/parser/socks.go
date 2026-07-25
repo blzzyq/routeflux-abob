@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Blaze757/routeflux/internal/domain"
+	"github.com/Alaxay8/routeflux/internal/domain"
 )
 
 // ParseSocks parses SOCKS5 share links in socks:// formats.
@@ -29,7 +29,7 @@ func ParseSocks(raw, provider string) (domain.Node, error) {
 		p, hasPass := parsed.User.Password()
 
 		// SOCKS URLs often base64-encode the credentials (username:password)
-		// e.g. dGVzdHVzZXI6dGVzdHBhc3M= -> testuser:testpass
+		// e.g. YWxheGF5OmFsYXhheQ== -> alaxay:alaxay
 		if !hasPass && looksLikeBase64Payload(u) {
 			decoded, err := base64.StdEncoding.DecodeString(u)
 			if err == nil {

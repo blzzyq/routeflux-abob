@@ -12,13 +12,13 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/Blaze757/routeflux/internal/app"
-	"github.com/Blaze757/routeflux/internal/backend"
-	"github.com/Blaze757/routeflux/internal/backend/xray"
-	"github.com/Blaze757/routeflux/internal/platform/openwrt"
-	"github.com/Blaze757/routeflux/internal/probe"
-	"github.com/Blaze757/routeflux/internal/speedtest"
-	"github.com/Blaze757/routeflux/internal/store"
+	"github.com/Alaxay8/routeflux/internal/app"
+	"github.com/Alaxay8/routeflux/internal/backend"
+	"github.com/Alaxay8/routeflux/internal/backend/xray"
+	"github.com/Alaxay8/routeflux/internal/platform/openwrt"
+	"github.com/Alaxay8/routeflux/internal/probe"
+	"github.com/Alaxay8/routeflux/internal/speedtest"
+	"github.com/Alaxay8/routeflux/internal/store"
 )
 
 type rootOptions struct {

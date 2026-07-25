@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Blaze757/routeflux/internal/domain"
-	"github.com/Blaze757/routeflux/internal/store"
+	"github.com/Alaxay8/routeflux/internal/domain"
+	"github.com/Alaxay8/routeflux/internal/store"
 )
 
 func TestAtomicWriteJSON(t *testing.T) {

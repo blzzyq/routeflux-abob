@@ -92,7 +92,7 @@ func TestUninstallScriptRemovesRouteFluxAndXrayArtifacts(t *testing.T) {
 	writeFile(t, filepath.Join(installRoot, "etc", "hotplug.d", "iface", "90-zapret"), "#!/bin/sh\n", 0o644)
 	writeFile(t, filepath.Join(installRoot, "etc", "sysctl.d", "99-routeflux-ipv6.conf"), "# Managed by RouteFlux\nnet.ipv6.conf.all.disable_ipv6=1\n", 0o644)
 	writeFile(t, filepath.Join(installRoot, "etc", "init.d", "routeflux.bak.20260327-233221"), "#!/bin/sh\n", 0o755)
-	writeFile(t, filepath.Join(installRoot, "etc", "opkg", "customfeeds.conf"), "src/gz routeflux https://github.com/Blaze757/routeflux/releases/download/v0.1.4\nsrc/gz other https://example.invalid/feed\nsrc/gz routeflux https://github.com/Blaze757/routeflux/releases/download/v0.1.4\n", 0o644)
+	writeFile(t, filepath.Join(installRoot, "etc", "opkg", "customfeeds.conf"), "src/gz routeflux https://github.com/Alaxay8/routeflux/releases/download/v0.1.4\nsrc/gz other https://example.invalid/feed\nsrc/gz routeflux https://github.com/Alaxay8/routeflux/releases/download/v0.1.4\n", 0o644)
 	writeFile(t, filepath.Join(installRoot, "etc", "opkg", "keys", "9e842876f8b9501d"), "untrusted comment: RouteFlux opkg feed\nPUBLICKEY\n", 0o644)
 	writeFile(t, filepath.Join(installRoot, "etc", "routeflux", "zapret-managed.json"), "{\"domains\":[\"youtube.com\"]}\n", 0o644)
 	writeFile(t, opkgStatePath, strings.Join([]string{
@@ -265,7 +265,7 @@ func TestUninstallScriptRemovesLegacyZapretAndRouteFluxTailsWithoutManifest(t *t
 	writeFile(t, filepath.Join(installRoot, "etc", "sysctl.d", "99-routeflux-ipv6.conf"), "# Managed by RouteFlux\nnet.ipv6.conf.all.disable_ipv6=1\n", 0o644)
 	writeFile(t, filepath.Join(installRoot, "etc", "config", "zapret"), "config zapret 'base'\n", 0o644)
 	writeFile(t, filepath.Join(installRoot, "etc", "hotplug.d", "iface", "90-zapret"), "#!/bin/sh\n", 0o644)
-	writeFile(t, filepath.Join(installRoot, "etc", "opkg", "customfeeds.conf"), "src/gz routeflux https://github.com/Blaze757/routeflux/releases/download/v0.1.4\nsrc/gz keep https://example.invalid/feed\n", 0o644)
+	writeFile(t, filepath.Join(installRoot, "etc", "opkg", "customfeeds.conf"), "src/gz routeflux https://github.com/Alaxay8/routeflux/releases/download/v0.1.4\nsrc/gz keep https://example.invalid/feed\n", 0o644)
 	writeFile(t, filepath.Join(installRoot, "etc", "opkg", "keys", "9e842876f8b9501d"), "untrusted comment: RouteFlux opkg feed\nPUBLICKEY\n", 0o644)
 	writeFile(t, filepath.Join(installRoot, "opt", "zapret", "config"), "# config\n", 0o644)
 	writeFile(t, filepath.Join(installRoot, "tmp", "lock", "procd_routeflux.lock"), "", 0o644)

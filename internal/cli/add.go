@@ -8,7 +8,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/Blaze757/routeflux/internal/app"
+	"github.com/Alaxay8/routeflux/internal/app"
 )
 
 func newAddCmd(opts *rootOptions) *cobra.Command {
