@@ -3,7 +3,7 @@ package cli
 import (
 	"github.com/spf13/cobra"
 
-	routefluxtui "github.com/Alaxay8/routeflux/internal/tui"
+	routefluxtui "github.com/Blaze757/routeflux/internal/tui"
 )
 
 func newTUICmd(opts *rootOptions) *cobra.Command {

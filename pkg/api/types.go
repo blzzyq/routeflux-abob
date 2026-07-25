@@ -4,8 +4,8 @@ import (
 	"math"
 	"time"
 
-	"github.com/Alaxay8/routeflux/internal/app"
-	"github.com/Alaxay8/routeflux/internal/domain"
+	"github.com/Blaze757/routeflux/internal/app"
+	"github.com/Blaze757/routeflux/internal/domain"
 )
 
 // NodeSummary is the API-safe shape for a node in CLI and LuCI JSON responses.

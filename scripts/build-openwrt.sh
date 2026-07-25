@@ -52,7 +52,7 @@ resolve_build_date() {
 VERSION="$(resolve_version)"
 COMMIT="$(resolve_commit)"
 BUILD_DATE="$(resolve_build_date)"
-LDFLAGS="-s -w -X github.com/Alaxay8/routeflux/internal/buildinfo.Version=${VERSION} -X github.com/Alaxay8/routeflux/internal/buildinfo.Commit=${COMMIT} -X github.com/Alaxay8/routeflux/internal/buildinfo.BuildDate=${BUILD_DATE}"
+LDFLAGS="-s -w -X github.com/Blaze757/routeflux/internal/buildinfo.Version=${VERSION} -X github.com/Blaze757/routeflux/internal/buildinfo.Commit=${COMMIT} -X github.com/Blaze757/routeflux/internal/buildinfo.BuildDate=${BUILD_DATE}"
 
 mkdir -p "${OUTPUT_DIR}"
 

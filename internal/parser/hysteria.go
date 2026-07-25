@@ -5,7 +5,7 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/Alaxay8/routeflux/internal/domain"
+	"github.com/Blaze757/routeflux/internal/domain"
 )
 
 // ParseHysteria parses a hysteria:// link.

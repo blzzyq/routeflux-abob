@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Alaxay8/routeflux/internal/app"
-	"github.com/Alaxay8/routeflux/internal/domain"
-	"github.com/Alaxay8/routeflux/pkg/api"
+	"github.com/Blaze757/routeflux/internal/app"
+	"github.com/Blaze757/routeflux/internal/domain"
+	"github.com/Blaze757/routeflux/pkg/api"
 )
 
 func TestStatusCommandJSONRedactsSecrets(t *testing.T) {

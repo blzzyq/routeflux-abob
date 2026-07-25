@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/Alaxay8/routeflux/internal/domain"
+	"github.com/Blaze757/routeflux/internal/domain"
 )
 
 // Result is the outcome of a probe execution.

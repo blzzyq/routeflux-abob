@@ -8,7 +8,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/Alaxay8/routeflux/internal/domain"
+	"github.com/Blaze757/routeflux/internal/domain"
 )
 
 func newZapretCmd(opts *rootOptions) *cobra.Command {

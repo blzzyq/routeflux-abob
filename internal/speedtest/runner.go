@@ -19,7 +19,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/Alaxay8/routeflux/internal/store"
+	"github.com/Blaze757/routeflux/internal/store"
 )
 
 const (

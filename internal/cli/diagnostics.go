@@ -10,10 +10,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/Alaxay8/routeflux/internal/backend"
-	"github.com/Alaxay8/routeflux/internal/domain"
-	"github.com/Alaxay8/routeflux/internal/platform/openwrt"
-	"github.com/Alaxay8/routeflux/pkg/api"
+	"github.com/Blaze757/routeflux/internal/backend"
+	"github.com/Blaze757/routeflux/internal/domain"
+	"github.com/Blaze757/routeflux/internal/platform/openwrt"
+	"github.com/Blaze757/routeflux/pkg/api"
 )
 
 const routefluxBinaryPath = "/usr/bin/routeflux"

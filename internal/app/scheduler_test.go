@@ -12,8 +12,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Alaxay8/routeflux/internal/domain"
-	storepkg "github.com/Alaxay8/routeflux/internal/store"
+	"github.com/Blaze757/routeflux/internal/domain"
+	storepkg "github.com/Blaze757/routeflux/internal/store"
 )
 
 func TestSchedulerRunOnceRefreshesDueSubscription(t *testing.T) {

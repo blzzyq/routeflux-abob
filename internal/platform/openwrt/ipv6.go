@@ -8,7 +8,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/Alaxay8/routeflux/internal/domain"
+	"github.com/Blaze757/routeflux/internal/domain"
 )
 
 const defaultIPv6SysctlConfigPath = "/etc/sysctl.d/99-routeflux-ipv6.conf"

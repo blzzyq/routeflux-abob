@@ -3,7 +3,7 @@ package backend
 import (
 	"context"
 
-	"github.com/Alaxay8/routeflux/internal/domain"
+	"github.com/Blaze757/routeflux/internal/domain"
 )
 
 // ConfigRequest defines the inputs required to build a backend config.

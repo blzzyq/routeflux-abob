@@ -8,7 +8,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/Alaxay8/routeflux/pkg/api"
+	"github.com/Blaze757/routeflux/pkg/api"
 )
 
 func newInspectCmd(opts *rootOptions) *cobra.Command {

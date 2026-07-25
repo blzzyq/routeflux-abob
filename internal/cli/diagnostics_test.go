@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Alaxay8/routeflux/pkg/api"
+	"github.com/Blaze757/routeflux/pkg/api"
 
-	"github.com/Alaxay8/routeflux/internal/domain"
+	"github.com/Blaze757/routeflux/internal/domain"
 )
 
 func TestInspectPathDetectsExecutableFile(t *testing.T) {

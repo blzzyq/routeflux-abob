@@ -15,9 +15,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Alaxay8/routeflux/internal/backend"
-	"github.com/Alaxay8/routeflux/internal/domain"
-	"github.com/Alaxay8/routeflux/internal/probe"
+	"github.com/Blaze757/routeflux/internal/backend"
+	"github.com/Blaze757/routeflux/internal/domain"
+	"github.com/Blaze757/routeflux/internal/probe"
 )
 
 func writeResponse(w http.ResponseWriter, body string) {

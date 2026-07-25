@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Alaxay8/routeflux/internal/domain"
+	"github.com/Blaze757/routeflux/internal/domain"
 )
 
 // TCPChecker checks node health using a TCP connect probe.

@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Alaxay8/routeflux/internal/app"
-	"github.com/Alaxay8/routeflux/internal/backend"
-	"github.com/Alaxay8/routeflux/internal/domain"
-	"github.com/Alaxay8/routeflux/internal/speedtest"
+	"github.com/Blaze757/routeflux/internal/app"
+	"github.com/Blaze757/routeflux/internal/backend"
+	"github.com/Blaze757/routeflux/internal/domain"
+	"github.com/Blaze757/routeflux/internal/speedtest"
 )
 
 func TestInspectXrayJSONOutputsRawConfig(t *testing.T) {

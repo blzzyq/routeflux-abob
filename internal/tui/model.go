@@ -7,8 +7,8 @@ import (
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
 
-	"github.com/Alaxay8/routeflux/internal/app"
-	"github.com/Alaxay8/routeflux/internal/domain"
+	"github.com/Blaze757/routeflux/internal/app"
+	"github.com/Blaze757/routeflux/internal/domain"
 )
 
 type model struct {

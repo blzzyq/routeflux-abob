@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/Alaxay8/routeflux/internal/backend"
-	"github.com/Alaxay8/routeflux/internal/store"
+	"github.com/Blaze757/routeflux/internal/backend"
+	"github.com/Blaze757/routeflux/internal/store"
 )
 
 // FileWriter persists generated Xray configs.

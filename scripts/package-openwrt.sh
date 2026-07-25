@@ -74,7 +74,7 @@ cat > "${CONTROL_DIR}/control" <<EOF
 Package: ${PACKAGE_NAME}
 Version: ${VERSION}
 Architecture: ${ARCH}
-Maintainer: Alexey
+Maintainer: Blaze757
 License: MIT
 Section: net
 Priority: optional

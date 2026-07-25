@@ -10,11 +10,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Alaxay8/routeflux/internal/backend"
-	"github.com/Alaxay8/routeflux/internal/backend/xray"
-	"github.com/Alaxay8/routeflux/internal/domain"
-	"github.com/Alaxay8/routeflux/internal/probe"
-	"github.com/Alaxay8/routeflux/internal/speedtest"
+	"github.com/Blaze757/routeflux/internal/backend"
+	"github.com/Blaze757/routeflux/internal/backend/xray"
+	"github.com/Blaze757/routeflux/internal/domain"
+	"github.com/Blaze757/routeflux/internal/probe"
+	"github.com/Blaze757/routeflux/internal/speedtest"
 )
 
 func TestInspectXrayConfigUsesOriginalAddressAndCurrentSettings(t *testing.T) {

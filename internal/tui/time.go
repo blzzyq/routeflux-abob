@@ -3,7 +3,7 @@ package tui
 import (
 	"time"
 
-	"github.com/Alaxay8/routeflux/internal/displaytime"
+	"github.com/Blaze757/routeflux/internal/displaytime"
 )
 
 func formatLocalTimestamp(value time.Time) string {

@@ -262,8 +262,8 @@ func DefaultSettings() Settings {
 			Enabled:  true,
 			Interval: NewDuration(24 * time.Hour),
 			URLs: map[string]string{
-				"geoip":   "https://sub.subvost.fun/geo/geoip.dat",
-				"geosite": "https://sub.subvost.fun/geo/geosite.dat",
+				"geoip":   "https://github.com/v2fly/geoip/releases/latest/download/geoip.dat",
+				"geosite": "https://github.com/v2fly/geosite/releases/latest/download/geosite.dat",
 			},
 		},
 		AutoMode: false,

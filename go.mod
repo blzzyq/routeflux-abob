@@ -1,4 +1,4 @@
-module github.com/Alaxay8/routeflux
+module github.com/Blaze757/routeflux
 
 go 1.26.1
 

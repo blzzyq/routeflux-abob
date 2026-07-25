@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Alaxay8/routeflux/internal/domain"
+	"github.com/Blaze757/routeflux/internal/domain"
 )
 
 func TestBuildNFTablesRules(t *testing.T) {

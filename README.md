@@ -37,7 +37,7 @@ The current runtime target is OpenWrt and compatible forks such as ImmortalWrt. 
 Install the latest stable release on your router:
 
 ```bash
-wget -O /tmp/routeflux-install.sh "https://github.com/Alaxay8/routeflux/releases/latest/download/install.sh" && sh /tmp/routeflux-install.sh
+wget -O /tmp/routeflux-install.sh "https://github.com/Blaze757/routeflux/releases/latest/download/install.sh" && sh /tmp/routeflux-install.sh
 ```
 
 Then import a subscription and connect:
@@ -91,21 +91,21 @@ The Settings page includes appearance controls, so you can switch the RouteFlux 
 Use the latest stable installer:
 
 ```bash
-wget -O /tmp/routeflux-install.sh "https://github.com/Alaxay8/routeflux/releases/latest/download/install.sh" && sh /tmp/routeflux-install.sh
+wget -O /tmp/routeflux-install.sh "https://github.com/Blaze757/routeflux/releases/latest/download/install.sh" && sh /tmp/routeflux-install.sh
 ```
 
 To update an existing router install in place without losing subscriptions, custom service aliases, or presets stored in `/etc/routeflux`:
 
 ```bash
 ROUTEFLUX_TAG=v0.1.5
-wget -O /tmp/routeflux-install.sh "https://github.com/Alaxay8/routeflux/releases/download/${ROUTEFLUX_TAG}/install.sh" && sh /tmp/routeflux-install.sh
+wget -O /tmp/routeflux-install.sh "https://github.com/Blaze757/routeflux/releases/download/${ROUTEFLUX_TAG}/install.sh" && sh /tmp/routeflux-install.sh
 ```
 
 If you need a pinned release:
 
 ```bash
 ROUTEFLUX_TAG=v0.1.6
-wget -O /tmp/routeflux-install.sh "https://github.com/Alaxay8/routeflux/releases/download/${ROUTEFLUX_TAG}/install.sh" && sh /tmp/routeflux-install.sh
+wget -O /tmp/routeflux-install.sh "https://github.com/Blaze757/routeflux/releases/download/${ROUTEFLUX_TAG}/install.sh" && sh /tmp/routeflux-install.sh
 ```
 
 The installer updates RouteFlux in place and preserves existing `/etc/routeflux` state files.
@@ -130,7 +130,7 @@ Current easy-install release assets are published for:
 To remove RouteFlux, the bundled Xray runtime, bundled Zapret, and installer-managed packages:
 
 ```bash
-wget -O /tmp/routeflux-uninstall.sh "https://github.com/Alaxay8/routeflux/releases/latest/download/uninstall.sh" && sh /tmp/routeflux-uninstall.sh
+wget -O /tmp/routeflux-uninstall.sh "https://github.com/Blaze757/routeflux/releases/latest/download/uninstall.sh" && sh /tmp/routeflux-uninstall.sh
 ```
 
 ### Build from source

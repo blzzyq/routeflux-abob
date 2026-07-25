@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/Alaxay8/routeflux/internal/parser"
+	"github.com/Blaze757/routeflux/internal/parser"
 )
 
 func TestParseVLESSLink(t *testing.T) {
@@ -76,7 +76,7 @@ func TestParseShadowsocksLink(t *testing.T) {
 func TestParseSocksLink(t *testing.T) {
 	t.Parallel()
 
-	input := "socks://YWxheGF5OmFsYXhheQ==@3.74.152.66:1080#AWS-Germany-SOCKS"
+	input := "socks://dGVzdHVzZXI6dGVzdHBhc3M=@3.74.152.66:1080#AWS-Germany-SOCKS"
 	nodes, err := parser.ParseNodes(input, "Example Provider")
 	if err != nil {
 		t.Fatalf("parse nodes: %v", err)
@@ -92,7 +92,7 @@ func TestParseSocksLink(t *testing.T) {
 	if got.Address != "3.74.152.66" || got.Port != 1080 {
 		t.Fatalf("unexpected endpoint: %+v", got)
 	}
-	if got.UUID != "alaxay" || got.Password != "alaxay" {
+	if got.UUID != "testuser" || got.Password != "testpass" {
 		t.Fatalf("unexpected credentials: %+v", got)
 	}
 	if got.Name != "AWS-Germany-SOCKS" || got.Remark != "AWS-Germany-SOCKS" {
